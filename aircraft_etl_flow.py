@@ -65,7 +65,7 @@ def load_live_data(live_aircraft_data):
 def main():
     schedule = IntervalSchedule(
         start_date=datetime.utcnow() + timedelta(seconds=1),
-        interval=timedelta(minutes=1),
+        interval=timedelta(minutes=2),
     )
 
     with Flow("etl", schedule=schedule, executor=LocalDaskExecutor()) as flow:
