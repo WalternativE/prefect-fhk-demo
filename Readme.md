@@ -55,3 +55,7 @@ prefect agent local start
 Be aware that if you have a scheduled flow (like we have here) and there is a long time between registering
 the flow and starting the agent there might be a queue of flow executions waiting. With SQLite being
 a file based data base this might lead to task failures.
+
+## Complementary Tutorial
+
+This tutorial is complemented by an [additional tutorial](https://github.com/WalternativE/prefect-fhk-demo), which demonstrates a minimal ETL workflow for RSS feed data implemented in Prefect.
