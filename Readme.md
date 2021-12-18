@@ -58,4 +58,4 @@ a file based data base this might lead to task failures.
 
 ## Complementary Tutorial
 
-This tutorial is complemented by an [additional tutorial](https://github.com/WalternativE/prefect-fhk-demo), which demonstrates a minimal ETL workflow for RSS feed data implemented in Prefect.
+This tutorial is complemented by an [additional tutorial](https://colab.research.google.com/drive/1g4H0oY4Sbk8KhdXIFYAN_kUc4g4RDwVT#scrollTo=M_mzEt4RhAYO), which demonstrates a minimal ETL workflow for RSS feed data implemented in Prefect.
